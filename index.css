@@ -2,31 +2,21 @@
   border-radius: 100%;
 }
 
-.about {
+.about, footer, h1 {
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 5%;
 }
 
-.fa-instagram {
-  background: #125688;
-  color: white;
+div {
+  border-style: inset;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
+@media screen and (min-width:50%) {
+  .left {
+    float: left;
+  }
 
-.fa:hover {
-    opacity: 0.7;
-}
-
-.contact {
-	text-align: center;
-	border-radius: 100%;
-	padding: 50%;
+  .right {
+    float: right;
+  }
 }
